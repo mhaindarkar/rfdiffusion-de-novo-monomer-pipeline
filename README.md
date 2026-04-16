@@ -65,3 +65,14 @@ Top-ranked designs from the current run:
 | 3 | test_0 | 11.947165 | yes |
 | 4 | test_4 | 12.417946 | no |
 | 5 | test_3 | 13.061824 | no |
+
+
+## Selected design gallery
+
+Top compact backbone candidates generated using RFdiffusion (length = 80 residues).
+
+- Red: test_1 (rank 1)
+- Blue: test_2 (rank 2)
+- Green: test_0 (rank 3)
+
+![Selected RFdiffusion designs](figures/design_gallery.png)
