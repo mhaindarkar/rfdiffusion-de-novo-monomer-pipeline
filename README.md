@@ -39,3 +39,29 @@ Feature extraction
 Candidate ranking
    ↓
 Selection for downstream sequence design
+
+
+
+## Current results
+
+A first RFdiffusion test run was completed using unconditional monomer generation.
+
+Run settings:
+- target length: 80 residues
+- number of generated designs: 5
+
+Observed results:
+- all 5 designs were parsed successfully
+- all designs contained 1 chain and 80 CA atoms
+- compactness was estimated using radius of gyration
+- top 3 candidates were selected for downstream review
+
+Top-ranked designs from the current run:
+
+| rank | design_id | radius_of_gyration | selected |
+|------|-----------|--------------------|----------|
+| 1 | test_1 | 11.801738 | yes |
+| 2 | test_2 | 11.833303 | yes |
+| 3 | test_0 | 11.947165 | yes |
+| 4 | test_4 | 12.417946 | no |
+| 5 | test_3 | 13.061824 | no |
