@@ -1,6 +1,6 @@
 # RFdiffusion De Novo Monomer Pipeline
 
-A minimal, interview-ready protein design project showing the first stage of modern de novo protein design: **AI-based backbone generation with RFdiffusion**, followed by **basic structural analysis, ranking, and candidate selection**.
+A minimalistic protein design project showing the first stage of de novo protein design: **AI-based backbone generation with RFdiffusion**, followed by **basic structural analysis, ranking, and candidate selection**.
 
 ## Project goal
 
